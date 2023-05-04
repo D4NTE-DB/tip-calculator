@@ -22,7 +22,7 @@ function App() {
   } 
 
   const resetSubmit = () => {
-    setBtn(0)
+    setBtn('')
     setPersons(1)
     setValue(0)
   }
