@@ -57,11 +57,11 @@ function App() {
 
             <h4>Select Tip %</h4>
             <div className='btn-calc' >
-              <button onClick={() => setBtn(0.05)} >5%</button>
-              <button onClick={() => setBtn(0.1)} >10%</button>
-              <button onClick={() => setBtn(0.15)} >15%</button>
-              <button onClick={() => setBtn(0.25)} >25%</button>
-              <button onClick={() => setBtn(0.5)} >50%</button>
+              <button onClick={() => setBtn(5)} >5%</button>
+              <button onClick={() => setBtn(1)} >10%</button>
+              <button onClick={() => setBtn(15)} >15%</button>
+              <button onClick={() => setBtn(25)} >25%</button>
+              <button onClick={() => setBtn(50)} >50%</button>
               <input
               onChange={(e) => setBtn(e.target.value)}
                 value={btn}
