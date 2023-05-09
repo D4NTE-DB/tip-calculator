@@ -96,8 +96,8 @@ function App() {
               </div>
             </div>
             <div>
-              <h1>{(value * (btn/100)).toFixed(0)}</h1>
-              <h1>{((value * (btn/100))  / persons).toFixed(0)}</h1>
+              <h1>{((value * (btn/100))  / persons).toFixed(0)}</h1> 
+               <h1>{(value * (btn/100)).toFixed(0)}</h1>
             </div>
 
           </div>
